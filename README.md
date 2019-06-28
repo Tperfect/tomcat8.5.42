@@ -105,7 +105,18 @@ lib文件夹是空的\
 Add New Configuration添加Application
 
 Main Class :  org.apache.catalina.startup.Bootstrap
-VM options :  -Dcatalina.home=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home -Dcatalina.base=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home -Djava.endorsed.dirs=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home\endorsed -Djava.io.tmpdir=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home\temp -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.util.logging.config.file=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home\conf\logging.properties
+VM options :  
+-Dcatalina.home=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home
+
+-Dcatalina.base=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home
+
+-Djava.endorsed.dirs=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home\endorsed
+
+-Djava.io.tmpdir=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home\temp
+
+-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ 
+-Djava.util.logging.config.file=H:\workspace\code\tomcat\tomcat8.5.42\catalina-home\conf\logging.properties
 
 说明：如果编译build的时候出现Test测试代码报错，注释该代码即可。本文中的Tomcat源码util.TestCookieFilter类会报错，将其注释即可。
 上面第三步已经构建了项目的运行环境，点击运行或者调试按钮后，正常运行。
